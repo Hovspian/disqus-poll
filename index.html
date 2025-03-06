@@ -1,0 +1,20 @@
+<head></head>
+<body>
+<div class="disqus_poll" data-disqus-poll-id="universal"></div>
+<script>
+    window.disqus_polls_config = function () {
+        // this.language = 'it';
+    };
+    (function() {
+        if (document.getElementById('disqus_polls_script'))
+          // polls.js script already loaded, don't load a second time
+          return;
+        var d = document, s = d.createElement('script');
+        s.id = 'disqus_polls_script';
+        s.src = "https://hovseptestrealm.disqus.com/polls.js";
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>
+    Please enable JavaScript to view the poll powered by Disqus.
+</noscript>
